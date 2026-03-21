@@ -48,6 +48,7 @@ li {
 /* SECTION 2 */
 #section-2-outer {
     display: flex;
+    flex: 1 1 auto;
     background-color: #1F2937;
     padding-block: clamp(3.125rem, -5.871rem + 15.152vi, 6.25rem);
     padding-inline: clamp(1.875rem, -21.042rem + 36.667vi, 15.625rem);
@@ -98,13 +99,12 @@ li {
 }
 
 .section-2-inner-b img {
-    max-width: 100%;
+    width: 100%;
 }
 
 @media (max-width: 56.84375rem) {
     .section-2-inner {
         justify-content: center;
-        max-height: max-content;
     }
 
     .section-2-inner-a {
