@@ -201,14 +201,115 @@ li {
     }
 }
 
-#section-4 {
-    background-color: lightgray;
+/* 🚩 SECTION 4 */
+#s4-out {
+    display: flex;
+    background-color: #E5E7EB;
+    padding-block: 50px;
+    padding-inline: clamp(1.875rem, -21.042rem + 36.667vi, 15.625rem);
 }
 
-#section-5 {
-    background-color: white;
+.s4-in {
+    display: flex;
+    flex: 1 1 auto;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
 }
 
-#section-footer {
-    background-color: lightgray;
+.s4-in-maintext {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    flex: 1 1 auto;
+    max-width: 843px;
+}
+
+.s4-in-littletext {
+    color: #1F2937;
+    font-size: 24px;
+    font-weight: 900;
+    flex: 1 1 auto;
+    width: 100%;
+    max-width: 843px;
+    text-align: right;
+}
+
+/* 🚩 SECTION 5 */
+#s5-out {
+    background-color: #F9FAF8;
+    display: flex;
+    padding-block: 50px;
+    padding-inline: clamp(1.875rem, -21.042rem + 36.667vi, 15.625rem);
+}
+
+.s5-in {
+    display: flex;
+    flex: 1 1 auto;
+    background-color: #3882F6;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-block: clamp(1.563rem, -5.556rem + 13.889vi, 3.125rem);
+    padding-inline: 30px;
+    border-radius: 10px;
+}
+
+.s5-in-positionman {
+    display: flex;
+    flex: 1 1 auto;
+    max-width: 843px;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: center;
+    gap: 25px;
+}
+
+.s5-in-frame1 {
+    flex: 0 1 auto;
+}
+
+.s5-in-frame1-heading {
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.s5-in-frame1-text {
+    color: #F9FAF8;
+    font-size: 18pxpx;
+}
+
+.s5-in-frame2 button {
+    all: unset;
+    color: #F9FAF8;
+    background-color: transparent;
+    font-size: 18px;
+    border: 2px solid #F9FAF8;
+    border-radius: 5px;
+    width: fit-content;
+    padding: 8px 24px 8px 24px;
+}
+
+@media (max-width: 48.4375rem) {
+    .s5-in-frame2 {
+        display: flex;
+        flex: 1 1 auto;
+        justify-content: flex-end;
+    }
+}
+
+/* 🚩 SECTION FOOTER */
+#sfoot-out {
+    display: flex;
+    justify-content: center;
+    background-color: #1F2937;
+    padding-block: 25px;
+    padding-inline: clamp(1.875rem, -21.042rem + 36.667vi, 15.625rem);
+}
+
+.sfoot-text {
+    color: #F9FAF8;
+    font-size: 18px;
 }
