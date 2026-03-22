@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
 * {
-    outline: solid 2px red;
+    /* outline: solid 2px red; */
 }
 
 body {
@@ -95,10 +95,11 @@ li {
 .s2-in-frame2 {
     display: flex;
     flex: 1 1 400px;
-    max-width: 800px;
+    max-width: 600px;
 }
 
 .s2-in-frame2 img {
+    border-radius: 10px;
     width: 100%;
 }
 
@@ -136,6 +137,7 @@ li {
     flex-direction: column;
     flex: 1 1 auto;
     justify-content: center;
+    align-items: center;
     flex-wrap: wrap;
     gap: 25px;
 }
@@ -143,6 +145,7 @@ li {
 .s3-in-frame1 {
     display: flex;
     flex: 1 1 auto;
+    max-width: 520px;
     justify-content: center;
     color: #1F2937;
     font-size: 36px;
